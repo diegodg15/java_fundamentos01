@@ -2,6 +2,8 @@ import javax.imageio.ImageTranscoder;
 
 public class VariablesJava {
     public static void main(String args[]) {
+        //------------------------------------------------------------------------
+        //TIPOS DE VARIABLES:
 
         //Varibales: camelCase
         var email = "email@gmail.com";//->similar a js, tipado débil.
@@ -25,6 +27,14 @@ public class VariablesJava {
         final double NUMERO_PI = Math.PI;
         System.out.println(NUMERO_PI);
 
+        Integer numeroDos = 12;
+        System.out.println((Object) numeroDos instanceof String);//se coloca object porque el compilador sin esto,
+        // manda error ya que sabe que no es un string antes de que haga la comprobación con instanceOf.
+        Object numeroTres = 12;
+        System.out.println(numeroTres instanceof String);
+        //------------------------------------------------------------------------
+
+        //IMPRESIONES POR CONSOLA:
 
     }
 }
