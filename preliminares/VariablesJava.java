@@ -29,12 +29,21 @@ public class VariablesJava {
 
         Integer numeroDos = 12;
         System.out.println((Object) numeroDos instanceof String);//se coloca object porque el compilador sin esto,
-        // manda error ya que sabe que no es un string antes de que haga la comprobación con instanceOf.
+        // manda error ya que, sabe que no es un string antes de que haga la comprobación con instanceOf.
         Object numeroTres = 12;
         System.out.println(numeroTres instanceof String);
         //------------------------------------------------------------------------
 
         //IMPRESIONES POR CONSOLA:
+        //CONCATENACIONES, INTERPOLACIÓN:
+        {
+            String msj = "JAVA";
+            System.out.println("Lenguaje de programación" + " " + msj);
+            String msj2 = "Lenguaje de programación";
+            System.out.println("Lenguaje de programación"+ " ".concat(msj));
+            System.out.println("Lenguaje de programación".concat(" " + msj));
+            System.out.println(msj2.concat(" ").concat(msj));
+        }
 
     }
 }

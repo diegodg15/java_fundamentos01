@@ -19,7 +19,7 @@ public class ConceptosBasicos {
 
         //CONVENCIONES/NOMENCLATURA:
         {
-            /*
+            /**
              * CLASES: PascalCase
              * INTERFACES: PascalCase
              * MÉTODOS: camelCase
@@ -32,7 +32,7 @@ public class ConceptosBasicos {
         //------------------------------------------------------------------------
         //VARIABLES:
         {
-            /*
+            /**
             * tipoDato nombreVariable = valor;
             *
             * VAR: otorga al compilador que determine el tipo de dato de la variable.
