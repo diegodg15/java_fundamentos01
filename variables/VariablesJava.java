@@ -16,14 +16,43 @@ public class VariablesJava {
             float numeroDecimalMenosPresicion;//requiere sufijo f. 32 bits.
             double numeroDecimal;//64 bits.
 
+
             //lógico:
             boolean booleano;//requiere prefijo "is". 1 bit TRUE | FALSE.
 
             //VARIABLE CONSTANTE (FINAL)
             {
                 final int variableConstante = 12;
+                System.out.println(variableConstante);
             }
         }
         //---------------------------------------------------------------------------------//
+        //comentario una línea.
+
+        /**comentario
+         * en bloque.
+         * */
+
+        /**
+         * Realiza el cálculo de la suma de dos sumandos/números enteros positivos.
+         ** @param numero1 Primer sumando.
+         ** @param numero2 Segundo sumando.
+         * @return El resultado total de la operación de la suma.
+         * */
+        //---------------------------------------------------------------------------------//
+        //IMPRESIÓN POR CONSOLA:
+        {
+            String msj = "Hola mundo";
+            String msj2 = "desde JAVA.";
+            System.out.println(msj + " " + msj2);//ln hace salto de línea.
+            System.out.print(msj + " " + msj2);
+            System.out.println(" ");
+            System.out.println("Línea A\nLínea B\nLínea C");
+
+            System.out.printf("Nombre: %s %nEdad: %d", "Ford", 1960);
+            System.out.println(" ");
+            System.out.printf("Ciudad: %S %nLetra: %C", "Santiago", "Chile".charAt(0));
+        }
+
     }
 }
