@@ -1,6 +1,4 @@
-import javax.imageio.ImageTranscoder;
-
-public class VariablesJava {
+public class VariablesJava1 {
     public static void main(String args[]) {
         //------------------------------------------------------------------------
         //TIPOS DE VARIABLES:
